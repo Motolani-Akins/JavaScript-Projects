@@ -23,3 +23,11 @@ function generateCat(){
    image.src = "http://thecatapi.com/api/images/get?format=src&size=small&type=gif";
    div.appendChild(image); 
 }
+
+function rpsGame(yourChoice){
+    // var humanChoice, BotChoice;
+    // humanChoice = yourChoice.id;
+    //results = decideWinner(humanChoice, botChoice);
+    //message = finalMessage(results)
+    
+}

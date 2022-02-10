@@ -66,15 +66,19 @@ hr{
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    border-bottom: 2px solid #c2b9bf;
     text-align: center;
 }
 
-.flex-box-con1{
+.btn-success{
+    margin-bottom: 20px;
+}
+
+.flex-box-con1, .flexbox-rps{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-top: 1px solid #c2b9bf;
 }
 
 .flex-box-con1 img{
@@ -97,4 +101,11 @@ hr{
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.flexbox-rps img{
+    padding: 20px;
+    margin: 40px;
+}
 
+.flexbox-rps img:hover{
+    box-shadow:  0px 10px 50px rgba(172, 141, 233, 1);
+}
