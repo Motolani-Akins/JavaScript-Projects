@@ -34,7 +34,7 @@
 <div class="container2">
      <div class="title-box"><h2 class="project">Challenge 2: Cat Generator</h2>
     
-     <button class="btn btn-success" id="cat-generator" onclick="generateCat()">Generate Cat</button>
+     <button class="btn btn-success green-mf" id="cat-generator" onclick="generateCat()">Generate Cat</button>
     </div>
      <div class="flex-box-con1" id="flex-cat-gen">
      
@@ -51,6 +51,30 @@
             <img id="paper" src="./paper.png" height="200" width="200" alt="" onclick="rpsGame(this)">
             <img id="scissors" src="./scissors.png" height="200" width="200" alt="" onclick="rpsGame(this)">
        </div>
+</div>
+<hr>
+
+<div class="container4">
+    <div class="title-box"><h2 class="project">Challenge 4: Change The Color Of All Buttons</h2>
+    </div>
+
+    <div class="various-buttons" id="various-buttons">
+       <form action="">
+       <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+    <option value="random">Random</option>
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="reset">Reset</option>
+</select>
+</form>
+
+   <button class="btn btn-primary chal4">Welcome!</button>
+   <button class="btn btn-danger chal4">Stop!!!</button>
+   <button class="btn btn-warning chal4">Careful there mate</button>
+   <button class="btn btn-success chal4">Yaaaay!</button>
+
+   </div>
+
 </div>
     <script src="/script.js"></script>
 </body>

@@ -102,3 +102,7 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage){
     document.getElementById('flexbox-rps-div').appendChild(messageDiv)
     document.getElementById('flexbox-rps-div').appendChild(botDiv)
 }
+
+//Change The Color Of All Buttons
+
+var all_buttons = document.getElementsByTagName('button ');
